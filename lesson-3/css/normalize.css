@@ -1,0 +1,89 @@
+
+/* Header and Footer rules here */
+header, footer {
+    margin: 1rem 0;
+    margin-bottom: 0;
+    height: auto;
+    color: black;
+    background-color: #b4c100;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+header h1 {
+    margin: 0;
+}
+header h2 {
+    margin: 0;
+}
+
+
+/* Navigation rules here */
+nav {
+    background-color: white;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+    font-size: 1.25rem;
+}
+
+nav a:hover {
+	background-color: #0c0c06;
+	color: white;
+}
+
+nav ul li.active a {
+    background-color: #0c0c06;
+    color: #fff;
+}
+
+
+/* Main content rules here */
+main {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body{
+    background-color: #011d0d;
+}
+
+main {
+    background-color: white;
+}
+
+
+
+h1 {
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    background-color: #b4c100;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav,
+main,
+footer {
+	max-width: 70em;
+	margin: 0 auto;
+}
+
+
+
