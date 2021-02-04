@@ -1,0 +1,93 @@
+/* 
+Normalized CSS 
+*/
+
+/*Header rules here */
+header{
+    background-color: white;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3685B5;
+
+}
+header h1 {
+    margin-bottom: 0;
+}
+
+/* Navigation rules here*/
+nav{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   padding: 0;
+  }
+
+  
+
+  .dropbtn {
+      display: none;
+      width: 100%;
+        background: #89AAE6;
+  }
+
+  .dropdown-content {
+     display: flex;
+     padding: 0;
+    }
+
+    .dropdown-content li{
+        flex-basis: auto;
+        flex-grow: 1;
+        list-style: none;
+        text-align: center;
+        padding: 1em 1.5em;
+        background: #89AAE6;
+    }
+
+ .dropdown-content a {
+     text-decoration: none;
+     color: black;
+     font-weight: 600;
+    }
+
+    .dropdown-content li:hover{
+        background: #4679D8;
+        transition: all 0.5s ease;
+    }
+
+/*Body rules here */
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+    background: #C2CFB2;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.contentbox{
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Footer rules here */
+    footer{
+        display: block;
+        background-color: #3685B5;
+        padding: 1em;
+        border-radius: 12px;
+        text-align: center;
+        clear: both;
+    }
