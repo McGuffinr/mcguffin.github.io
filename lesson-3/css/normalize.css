@@ -5,7 +5,7 @@ header, footer {
     margin-bottom: 0;
     height: auto;
     color: black;
-    background-color: #39b12e;
+    background-color: #FF9770;
     text-align: center;
     padding: 1rem;
     font-family: 'Oswald', sans-serif;
@@ -13,6 +13,8 @@ header, footer {
 
 header h1 {
     margin: 0;
+    background-color: #FF9770;
+    
 }
 header h2 {
     margin: 0;
@@ -39,12 +41,12 @@ nav ul li a {
 }
 
 nav a:hover {
-	background-color: #0c0c06;
+	background-color: #FFBA0A;
 	color: white;
 }
 
 nav ul li.active a {
-    background-color: #0c0c06;
+    background-color: #FFBA0A;
     color: #fff;
 }
 
@@ -56,11 +58,15 @@ main {
 }
 
 body{
-    background-color: #011d0d;
+    background-color: #08415C;
 }
 
 main {
     background-color: white;
+}
+
+.color {
+    margin: 1rem;
 }
 
 
@@ -69,13 +75,14 @@ h1 {
     width: 100%;
     font-family: 'Oswald', sans-serif;
     color: black;
-    background-color: #39b12e;
+    background-color: #FF9770;
     text-align: center;
     margin: 0;
 }
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 0;
 }
 
 nav,
