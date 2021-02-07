@@ -66,6 +66,19 @@ body{
     background: #C2CFB2;
 }
 
+.summarybox{
+    position: absolute;
+    margin: 2em;
+    background-color: #3684b5c7;
+    padding: 1em 3em 1em 1em;
+    text-align: left;
+}
+
+.summarybox ul{
+    list-style: none;
+    list-style-position: outside;
+}
+
 h2{
     text-align: center;
 }
@@ -82,6 +95,34 @@ h2{
     text-align: center;
 }
 
+/*-------Main---------*/
+
+main figure img {width: 100%; height: auto;}
+main figure {
+    margin: 0;
+    width: 100%;
+}
+
+section.article {
+    border: 1px solid black;
+    margin-top: 2rem;
+}
+section.article p {
+    margin: 1rem;
+}
+
+section.article h2 {
+    text-align: center;
+}
+
+
+
+
+div#message {background-color: rgb(212, 0, 255);}
+div.showme{display: block;}
+div.hideme{display: none;}
+
+
 /* Footer rules here */
     footer{
         display: block;
@@ -90,4 +131,17 @@ h2{
         border-radius: 12px;
         text-align: center;
         clear: both;
+    }
+
+    .contactinfo{
+        display: block;
+        margin: 10px auto;
+        padding: 15px;
+        color: black;
+        font-style: bold;
+    }
+    
+    .contactinfo{
+        border: 1px solid black;
+        margin-bottom: 1em;
     }
