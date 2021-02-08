@@ -9,7 +9,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #3685B5;
+    background:  #035487;
 
 }
 header h1 {
@@ -130,11 +130,15 @@ div.hideme{display: none;}
 /* Footer rules here */
     footer{
         display: block;
-        background-color: #3685B5;
+        background-color: #035487
         padding: 1em;
         border-radius: 12px;
         text-align: center;
         clear: both;
+    }
+
+    footer a {
+        color: rgb(246, 250, 0)
     }
 
     .contactinfo{
