@@ -130,7 +130,7 @@ div.hideme{display: none;}
 /* Footer rules here */
     footer{
         display: block;
-        background-color: #035487
+        background-color: #035487;
         padding: 1em;
         border-radius: 12px;
         text-align: center;
