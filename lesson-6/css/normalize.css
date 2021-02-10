@@ -9,7 +9,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:  #035487;
+    background:  #0f6faa;
 
 }
 header h1 {
@@ -131,7 +131,7 @@ div.hideme{display: none;}
 /* Footer rules here */
     footer{
         display: block;
-        background-color: #035487;
+        background-color: #0f6faa;
         padding: 1em;
         border-radius: 12px;
         text-align: center;
