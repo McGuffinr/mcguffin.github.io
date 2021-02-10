@@ -49,4 +49,10 @@
 
 section.forecast{display: none;}
 
+main section.article img {
+  display: block;
+  width: 96%;
+  margin: 0 2%;
+}
+
 }

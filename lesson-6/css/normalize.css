@@ -58,12 +58,21 @@ nav{
         transition: all 0.5s ease;
     }
 
-/*Body rules here */
+/*-------Main---------*/
+
 body{
     margin: 0;
     padding: 0;
     font-family:'Open Sans', sans-serif;
     background: #C2CFB2;
+}
+
+main picture.hero img {width: 100%;}
+
+.hero {
+    display: block;
+    width: 96%;
+    margin: -0 2%;
 }
 
 .summarybox{
@@ -93,14 +102,6 @@ h2{
     color: black;
     font-style: italic;
     text-align: center;
-}
-
-/*-------Main---------*/
-
-main figure img {width: 100%; height: auto;}
-main figure {
-    margin: 0;
-    width: 100%;
 }
 
 section.article {

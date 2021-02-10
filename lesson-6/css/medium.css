@@ -40,4 +40,13 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    main section.article img {width: 100%;}
+
+    main section.article img {
+        display: block;
+        float: right;
+        width: 46%;
+        margin: 0 2%;
+    }
+
 }
