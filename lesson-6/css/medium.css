@@ -1,0 +1,43 @@
+@media only screen and (min-width: 35rem) {
+    footer{
+        display: block;
+        background-color: #3685B5;
+        padding: 1em;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    section.forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 2rem;
+    }
+    section.forecast div {
+        text-align: center;
+        border: 1px solid black;
+    }
+    section.forecast div h5 {
+        background-color: #3685B5;
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+    section.article img {
+        float: right;
+        margin: 1rem;
+    }
+
+    section.contactinfo {
+        border: 1px solid black;
+    }
+
+    section.contactinfo img {
+        float: right;
+    }
+
+    .contactinfo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

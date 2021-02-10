@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="WDD 230 Index Page">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Robert McGuffin">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        <title>Idaho Weather Site</title>
+    </head>
+
+    <body>
+        <header>
+            <picture>
+                <img src="images/logo.jpg" alt="Logo">               
+            </picture>
+
+            <section>
+                <h1>Idaho Weather Site</h1>
+                <div>The one stop weather shop</div>
+            </section>
+        </header>
+
+        <nav>
+               <button onclick="myFunction()" class="dropbtn">☰ Menu</button>
+                <ul id="myDropdown" class="dropdown-content">
+                   <li>  <a href="preston.html">Home</a></li>
+                   <li>  <a href="#">Preston</a></li>
+                   <li>  <a href="#">Soda Springs</a></li>
+                   <li>  <a href="#">Fish Haven</a></li>
+                   <li>  <a href="#">Storm Center</a></li>
+                   <li>  <a href="#">Gallery</a></li>
+                </ul>
+                             
+        </nav>
+
+        <main>
+            <div id="message">Saturday = Preston Pancake Park Party!<br>
+                              9:00 a.m. Saturday at the city park.
+            </div>
+            <h2>Idaho</h2>
+            <figure>
+                <div class="summarybox">
+                    <ul>
+                        <li><h3>Weather Summary</h3></li>
+                        <li>Currently: Rainy</li>
+                        <li>High: 55&deg;F</li>
+                        <li>Wind Chill: 42&deg;F </li>
+                        <li>Humidity: 100%</li>
+                        <li>Wind Speed: 10mph</li>
+                    </ul>
+                </div>
+                    
+                
+                <img src="images/townpic.png" alt="picture of town">
+            </figure>
+
+            <section class="forecast">
+                <div>
+                    <h5>Monday</h5>
+                    <img src="images/rain.png" alt="rain">
+                    <p>40&deg;</p>
+                </div>
+                <div>
+                    <h5>Tuesday</h5>
+                    <img src="images/snow.png" alt="snow">
+                    <p>30&deg;</p>
+                </div>
+                <div>
+                    <h5>Wednesday</h5>
+                    <img src="images/sun.png" alt="sun">
+                    <p>75&deg;</p>
+                </div>
+                <div>
+                    <h5>Thursday</h5>
+                    <img src="images/rain.png" alt="rain">
+                    <p>50&deg;</p>
+                </div>
+                <div>
+                    <h5>Friday</h5>
+                    <img src="images/rain.png" alt="rain">
+                    <p>47&deg;</p>
+                </div>
+            </section>
+
+            <section class="article">
+                
+                <h2>Article</h2>
+
+                <img src="images/stormpic.png" alt="picture of storm">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                    Convallis aenean et tortor at risus. Molestie at elementum eu facilisis. Viverra orci sagittis eu volutpat odio facilisis.<br>
+                    Commodo odio aenean sed adipiscing diam donec adipiscing. Natoque penatibus et magnis dis parturient montes nascetur.<br>
+                    Urna et pharetra pharetra massa massa ultricies. Adipiscing elit duis tristique sollicitudin nibh sit amet.<br>
+                    Ac auctor augue mauris augue neque gravida in. Vel pretium lectus quam id leo in vitae turpis. Eu feugiat pretium nibh ipsum consequat nisl vel.<br>
+                    In ante metus dictum at tempor commodo ullamcorper a lacus. Leo vel orci porta non pulvinar. Cursus euismod quis viverra nibh cras pulvinar mattis nunc.<br>
+                    Tortor posuere ac ut consequat. Interdum consectetur libero id faucibus nisl tincidunt eget nullam. Eu facilisis sed odio morbi quis.<br>
+                    Cum sociis natoque penatibus et magnis dis parturient. Nec feugiat nisl pretium fusce id velit ut tortor.
+                </p>
+
+            </section>
+
+           
+            <section class="contactinfo">
+                <div>
+                    <h2>Contact Us</h2>
+                    <h3>address</h3>
+                    <P>426 W 7th S<br>
+                     Preston Idaho 81745 </P>
+                    <h3>phone</h3>
+                    <p>(208)896-8765</p>
+                    <h3>email</h3>
+                    <p>yespreston@gmail.com</p>
+                </div>
+                <div class="map">
+                    <div class="gmap">
+                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=preston,%20id&t=&z=13&ie=UTF8&iwloc=&output=embed" ></iframe>
+                    </div>
+                </div>
+                
+            </section>
+
+        </main>
+        
+        
+        <footer>
+            <p>©2021|Robert McGuffin|Idaho|<a href="https://byui.edu/online">BYUI Online Learning</a></p>
+            <span id="fullDate"></span>
+        </footer>
+
+        <script src="js/javascript.js"></script>
+        
+    </body>
+</html>
