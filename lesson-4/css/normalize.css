@@ -5,6 +5,7 @@ Normalized CSS
 /*Header rules here */
 header{
     background-color: white;
+    color: #C2CFB2;
     padding: 5px 0;
     display: flex;
     align-items: center;
@@ -85,7 +86,8 @@ h2{
 /* Footer rules here */
     footer{
         display: block;
-        background: #035487
+        color: #C2CFB2;
+        background: #035487;
         padding: 1em;
         border-radius: 12px;
         text-align: center;
