@@ -5,6 +5,7 @@ Normalized CSS
 /*Header rules here */
 header{
     background-color: white;
+    color: #C2CFB2;
     padding: 5px 0;
     display: flex;
     align-items: center;
@@ -130,6 +131,7 @@ div.hideme{display: none;}
 /* Footer rules here */
     footer{
         display: block;
+        color: #C2CFB2;
         background-color: #035487;
         padding: 1em;
         border-radius: 12px;
