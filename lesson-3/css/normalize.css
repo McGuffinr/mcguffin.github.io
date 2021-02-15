@@ -42,12 +42,12 @@ nav ul li a {
 
 nav a:hover {
 	background-color: #FFBA0A;
-	color: white;
+	color: black;
 }
 
 nav ul li.active a {
     background-color: #FFBA0A;
-    color: #fff;
+    color: black;
 }
 
 
@@ -90,6 +90,10 @@ main,
 footer {
 	max-width: 70em;
 	margin: 0 auto;
+}
+
+footer a {
+    color:blueviolet
 }
 
 
