@@ -1,4 +1,46 @@
 @media only screen and (min-width: 35rem) {
+    /* Navigation rules here*/
+nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0;
+   }
+ 
+   
+ 
+   .dropbtn {
+       display: none;
+       width: 100%;
+         background: #89AAE6;
+   }
+ 
+   .dropdown-content {
+      display: flex;
+      padding: 0;
+     }
+ 
+     .dropdown-content li{
+         flex-basis: auto;
+         flex-grow: 1;
+         list-style: none;
+         text-align: center;
+         padding: 1em 1.5em;
+         background: #89AAE6;
+     }
+ 
+  .dropdown-content a {
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+     }
+ 
+     .dropdown-content li:hover{
+         background: #4679D8;
+         transition: all 0.5s ease;
+     }
+ 
     footer{
         display: block;
         background-color: #035487;
