@@ -85,6 +85,10 @@ p {
     margin-bottom: 0;
 }
 
+main p, h2, h3 {
+    padding: 2%;
+}
+
 nav,
 main,
 footer {
