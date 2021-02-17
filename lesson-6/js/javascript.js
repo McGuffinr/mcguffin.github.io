@@ -33,3 +33,4 @@ function myFunction() {
      }else {
       element.classList.add("hideme");
      }
+

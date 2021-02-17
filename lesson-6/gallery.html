@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="WDD 230 Index Page">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Robert McGuffin">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        <title>Idaho Weather Site</title>
+    </head>
+
+    <body>
+        <header>
+            <picture>
+                <img src="images/logo.jpg" alt="Logo">               
+            </picture>
+
+            <section>
+                <h1>Idaho Weather Site</h1>
+                <div>The one stop weather shop</div>
+            </section>
+        </header>
+
+        <nav>
+               <button onclick="myFunction()" class="dropbtn">☰ Menu</button>
+                <ul id="myDropdown" class="dropdown-content">
+                   <li>  <a href="preston.html">Home</a></li>
+                   <li>  <a href="#">Preston</a></li>
+                   <li>  <a href="#">Soda Springs</a></li>
+                   <li>  <a href="#">Fish Haven</a></li>
+                   <li>  <a href="#">Storm Center</a></li>
+                   <li class="active">  <a href="gallery.html">Gallery</a></li>
+                </ul>
+                             
+        </nav>
+
+       <main>
+        <div class="gallerygrid">
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/clouds.jpg" alt="Cloud Image">
+                <figcaption>this is a cloud</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/lake.jpg" alt="Lake Image">
+                <figcaption>this is a Lake</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/lighting.jpg" alt="Lighting Image">
+                <figcaption>this is called Lighting</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/ocean.jpg" alt="Ocean Image">
+                <figcaption>this is the Ocean</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/tornado.jpg" alt="Tornado Image">
+                <figcaption>this is a Tornado</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/mountain.jpg" alt="Mountain Image">
+                <figcaption>this is a Mountain</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/rainbow.jpg" alt="Rainbow Image">
+                <figcaption>Look at that rainbow connection</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/river.jpg" alt="River Image">
+                <figcaption>this is a River</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/winter.jpg" alt="Winter Image">
+                <figcaption>Brrrrrr</figcaption>
+            </figure>
+        </div>
+        </main>
+        
+        
+        <footer>
+            <p>©2021|Robert McGuffin|Idaho|<a href="https://byui.edu/online">BYUI Online Learning</a></p>
+            <span id="fullDate"></span>
+        </footer>
+
+        <script src="js/gallery.js"></script>
+        <script src="js/javascript.js"></script>
+        
+    </body>
+</html>
