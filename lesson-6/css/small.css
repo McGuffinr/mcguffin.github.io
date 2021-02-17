@@ -11,8 +11,13 @@ header{
   background:  #035487;
 
 }
+
+header picture img {
+  padding-right: 20px;
+}
 header h1 {
   margin-bottom: 0;
+
 }
 
 
