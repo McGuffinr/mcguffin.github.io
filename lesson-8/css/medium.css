@@ -1,0 +1,114 @@
+@media only screen and (min-width: 640px) {
+
+/* Gallery grid */
+
+.gallerygrid {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+/* Navigation */
+
+nav li.active {
+    background: #4679D8;
+}
+
+.dropbtn {
+    display: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+ 
+.dropbtn {
+    display: none;
+    width: 100%;
+    background: #89AAE6;
+}
+ 
+   .dropdown-content {
+      display: flex;
+      padding: 0;
+     }
+ 
+     .dropdown-content li{
+         flex-basis: auto;
+         flex-grow: 1;
+         list-style: none;
+         text-align: center;
+         padding: 1em 1.5em;
+         background: #89AAE6;
+     }
+ 
+  .dropdown-content a {
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+     }
+ 
+     .dropdown-content li:hover{
+         background: #4679D8;
+         transition: all 0.5s ease;
+     }
+
+
+
+
+    footer{
+        display: block;
+        background-color: #035487;
+        padding: 1em;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    section.forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 2rem;
+    }
+    section.forecast div {
+        text-align: center;
+        border: 1px solid black;
+    }
+    section.forecast div h5 {
+        background-color: #035487;
+        color: #C2CFB2;
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+    section.contactinfo {
+        border: 1px solid black;
+    }
+
+    section.contactinfo img {
+        float: right;
+    }
+
+    .contactinfo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Gallery Rules */
+
+    .artdiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2%;
+        padding-left: 2%;
+    }
+
+    .artdiv img {
+        width: 96%;
+        object-fit: cover;
+        
+    }
+
+}

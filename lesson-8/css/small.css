@@ -1,0 +1,275 @@
+
+/* Header Rules */
+
+header{
+  background-color: white;
+  color: #C2CFB2;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:  #035487;
+
+}
+
+header picture img {
+  padding-right: 20px;
+}
+header h1 {
+  margin-bottom: 0;
+
+}
+
+
+
+/* Navigation */
+
+ul{
+  margin-top: 0;
+}
+
+.dropbtn {
+background-color: #89AAE6;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+width: 100%;
+display: block;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+background-color: #89AAE6;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+width: 100%;
+}
+
+
+.dropdown-content {
+display: none;
+list-style: none;
+background-color: #89AAE6;
+min-width: 100%;
+overflow: auto;
+padding: 16px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+text-align: center;
+}
+
+.dropdown-content a {
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+  /*---------Main---------*/
+
+section.forecast{display: none;}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family:'Open Sans', sans-serif;
+  background: #C2CFB2;
+}
+
+main picture.hero img {width: 100%;}
+
+.hero {
+  display: block;
+  width: 96%;
+  margin: -0 2%;
+}
+
+.summarybox{
+  position: absolute;
+  margin: 2em;
+  background-color: #3684b5c7;
+  padding: 1em 3em 1em 1em;
+  text-align: left;
+}
+
+.summarybox ul{
+  list-style: none;
+  list-style-position: outside;
+}
+
+h2{
+  text-align: center;
+}
+
+
+.contentbox{
+  display: block;
+  margin: 10px auto;
+  border: 1px dashed black;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-style: italic;
+  text-align: center;
+}
+
+section.article {
+  border: 1px solid black;
+  margin-top: 2rem;
+}
+section.article p {
+  margin: 1rem;
+}
+
+section.article h2 {
+  text-align: center;
+}
+
+
+main section.article img {
+  display: block;
+  width: 96%;
+  margin: 0 2%;
+}
+
+div#message {
+  background-color: rgb(238, 255, 0);
+  font-size: xx-large;
+  text-align: center;
+}
+div.showme{display: block;}
+div.hideme{display: none;}
+
+/* Footer Rules */
+
+footer{
+  display: block;
+  background-color: #035487;
+  color: #C2CFB2;
+  padding: 1em;
+  border-radius: 12px;
+  text-align: center;
+  clear: both;
+}
+
+footer a {
+  color: rgb(246, 250, 0)
+}
+
+.gmap iframe {
+  width: 100%;
+  height: 400px;
+  border: 0 ;
+  overflow: hidden; 
+  margin: 0;
+}
+
+.map {
+  position:relative;
+  text-align:right;
+}
+
+.gmap {
+  overflow:hidden;
+  background:none!important;}
+
+.contactinfo{
+  display: block;
+  margin: 10px auto;
+  padding: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+/* Gallery Rules */
+
+img[data-src] {
+  filter: blur(.5em);
+}
+
+.gallerygrid {
+  display: block;
+  text-align: center;
+  transition: filter 0.5s;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*      Storm Center Page  */
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #05386b;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend {
+  color: #05386B;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-size: 1.2rem;
+}
+
+form label.top, form label.info, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #05386B;
+  font-size: .8rem;
+}
+
+form label.info input:required {
+  border-left: red solid 6px;
+}
+
+form label.info input:required:valid {
+  border-left: green solid 6px;
+}
+
+form label.top input, form label.info input, form label.storm select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #000;
+  border-radius: 4px;
+  padding: .5rem;
+  color: #05386B;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #ffffff;
+}
+
+form label.radios {
+  display: block;
+  padding-top: 1em;
+}
+
+form label.storm {
+  display: block;
+  padding: .75rem 0;
+  color: #05386B;
+}
+
+form input.submit_button {
+  border: none;
+  background-color: #5cdb95;
+  color: #05386b;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 2rem 5%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+
+
