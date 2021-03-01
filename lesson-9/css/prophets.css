@@ -1,4 +1,10 @@
-h1, h2 {
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+} 
+
+h2 {
     font-family: sans-serif;
     text-align: center;
     color:burlywood;
