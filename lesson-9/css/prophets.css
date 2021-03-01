@@ -7,7 +7,7 @@ h1 {
 h2 {
     font-family: sans-serif;
     text-align: center;
-    color:burlywood;
+    color:rgb(255, 208, 0);
 }
 
 img {
@@ -33,7 +33,7 @@ main {
   .birth, .birthplace {
     text-align: center;
     padding-bottom: 4px;
-    color:burlywood;
+    color:rgb(255, 238, 0);
   }
   
   .cards {
