@@ -29,4 +29,15 @@
 footer{
     margin: auto;
 }
+
+/* HomePage card rules */
+
+.card {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card section {
+    display: block;
+    width: 325px;
+  }
 }

@@ -111,4 +111,27 @@ nav{
         
     }
 
+/* HomePage card rules */
+
+.card section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card section:nth-child(odd) img {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .card section:nth-child(odd) #details {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #wireframes {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
 }
