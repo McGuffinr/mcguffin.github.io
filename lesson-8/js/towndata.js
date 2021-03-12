@@ -12,13 +12,13 @@ fetch(requestURL)
        if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
                 // Create Elements
                 let card = document.createElement('section');
-               let name = document.createElement('h2');
-               let motto = document.createElement('h4');
-               let image = document.createElement('img');
-               let yearFounded = document.createElement('p');
-               let currentPopulation = document.createElement('p');
-               let averageRainfall = document.createElement('p');
-               let details = document.createElement('div');
+                let name = document.createElement('h2');
+                let motto = document.createElement('h4');
+                let image = document.createElement('img');
+                let yearFounded = document.createElement('p');
+                let currentPopulation = document.createElement('p');
+                let averageRainfall = document.createElement('p');
+                let details = document.createElement('div');
                 //select used information
                 name.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;

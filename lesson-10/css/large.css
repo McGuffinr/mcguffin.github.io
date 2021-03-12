@@ -1,0 +1,43 @@
+@media only screen and (min-width: 1200px) {
+    main{   
+        margin: auto;
+        width: 80%;
+    }
+
+    .gallerygrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        margin: auto;
+    }
+
+    .gallerygrid figure {
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+
+    .gallerygrid figcaption{
+       padding-top: .5rem;
+       font-weight: bold;
+    }
+
+
+    .gallerygrid figure img:hover {
+        box-shadow: 5px 10px 8px gray;
+    }
+
+footer{
+    margin: auto;
+}
+
+/* HomePage card rules */
+
+.card {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card section {
+    display: block;
+    width: 325px;
+  }
+}
