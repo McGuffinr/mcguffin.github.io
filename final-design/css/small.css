@@ -1,0 +1,188 @@
+
+
+/*      Header          */
+
+header {
+    background: #43C6AC;  
+    background: -webkit-linear-gradient(to right, #43C6AC, #191654);  
+    background: linear-gradient(to right, #43C6AC, #191654); 
+    padding: 5px 0;
+    align-items: center;
+}
+
+/*      Navigation      */
+
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .dropbtn {
+  background-color: #22007C;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+  background-color: #22007C;
+  }
+  
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  }
+  
+  
+  .dropdown-content {
+  display: none;
+  list-style: none;
+  background-color: #22007C;
+  min-width: 100%;
+  overflow: auto;
+  padding: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+  }
+  
+  .dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  /*        Main            */
+
+  body{
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+  }
+
+  main {
+      background-color: #E2FCEF;
+      padding: 2rem;
+  }
+
+  main h2 {
+      margin-top: 0;
+  }
+
+  main p {
+      margin-bottom: 0;
+  }
+
+  /*      Forecast Rules         */
+
+  .forecasts {
+    padding: 3px;
+    margin: 2px;
+    border: 2px solid #05386b;
+  }
+
+  .forecastdiv {
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+  }
+
+  /*       Join us Form rules    */
+
+  form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #05386b;
+    border-radius: 10px;
+    padding: .5rem 2%;
+  }
+
+  form legend {
+    color: #05386B;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+  }
+
+  form label.info, form label.businessinfo, form label.membership{
+    display: block;
+    padding-top: 1rem;
+    color: #05386B;
+    font-size: .8rem;
+  }
+
+  form label.info input, form label.businessinfo input, form label.membership select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #000;
+    border-radius: 4px;
+    padding: .5rem;
+    color: #05386B;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #ffffff;
+  }
+
+  form input.submit_button {
+    border: none;
+    background-color: #43C6AC;
+    color: #05386b;
+    font-size: 1.5rem;
+    border-radius: .25rem;
+    padding: .75rem 1.5rem;
+    margin: 0 2rem 5%;
+    width: 96%;
+    max-width: 20rem;
+  }
+
+  /*       Footer           */
+
+  footer {
+    background: #43C6AC;  
+    background: -webkit-linear-gradient( #191654, #43C6AC);  
+    background: linear-gradient( #191654, #43C6AC);
+  }
+
+  footer p {
+      margin-top: 0;
+  }
+
+
+
+
+
+
+
+
+  .card {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+  
+  .card section {
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color: #d4dec9;
+  }
+  
+  .card section img {
+    border-radius: 8px;
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    filter: blur(0em);
+    transition: filter 1s;
+  }

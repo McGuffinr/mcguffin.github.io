@@ -1,0 +1,49 @@
+@media only screen and (min-width: 640px) {
+
+
+
+nav ul li a {
+    display: block;
+    color: #eee;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-align: center;
+}
+
+  nav ul li.active a{
+    color: white;
+    background: #3100B8;
+  }
+
+
+    .dropbtn {
+      display: none;
+      width: 100%;
+      background: #22007C;
+   }
+
+    .dropdown-content {
+     display: flex;
+     padding: 0;
+    }
+
+    .dropdown-content li{
+        flex-basis: auto;
+        flex-grow: 1;
+        list-style: none;
+        text-align: center;
+
+        background: #22007C;
+    }
+
+    .dropdown-content a {
+     text-decoration: none;
+     color: white;
+     font-weight: 600;
+    }
+
+    .dropdown-content li:hover{
+        background: #3600CC;;
+        transition: all 0.5s ease;
+    }
+}
