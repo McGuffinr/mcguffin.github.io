@@ -1,37 +1,37 @@
-const requestURL = 'jason/business.json';
+const requestURL = 'https://raw.githubusercontent.com/McGuffinr/mcguffin.github.io/master/final-design/jason/business.json';
 fetch(requestURL)
 .then(function (response) {
    return response.json();
 })
-	
+
   .then(function (jsonObject) {
-    const business = jsonObject['business'];
+    const business = jsonObject["business"];
 
-    for (let i = 0; i < business.length; i++) {
-       if (business[i].name == "Millhollow" || business[i].name == "AlphaGraphics" || business[i].name == "The Hickory") {
-                // Create Elements
-                let card = document.createElement('section');
-                let name = document.createElement('h2');
-                let photo = document.createElement('img');
-                let contact = document.createElement('p');
-                let weblink = document.createElement('p');
-                let details = document.createElement('div');
-                //select used information
-                name.textContent = business[i].name;
-                contact.textContent = 'Phone Number: ' + business[i].contact;
-                weblink.textContent = 'website: ' + business[i].weblink;
-                // set attributes for img
-                details.setAttribute('class', 'details');
-                image.setAttribute('src', 'images/'+ business[i].photo);
-                image.setAttribute('alt', business[i].name + ' Business');
-                // select and order information used
-                details.appendChild(name);
-                details.appendChild(contact);
-                details.appendChild(weblink);
-                card.appendChild(details); 
-                card.appendChild(photo);
+    for (let i = 0; i < business.length; i++ ) {
+        let card = document.createElement('section');
+        let h2 = document.createElement('h2');
+        let image = document.createElement('img');
+        let  contact_info = document.createElement('div');
+        let  link = document.createElement('a');
 
-                document.querySelector('div.card').appendChild(card);
-            }
-        }
-  }); 
+      h2.textContent = business[i].name;
+
+      image.setAttribute('src', business[i].photo);
+
+      image.setAttribute('alt', business[i].name);
+
+      contact_info.textContent = business[i].contact;
+
+      link.textContent = business[i].weblink; 
+
+      card.appendChild(h2);
+      card.appendChild(image);
+      card.appendChild(contact_info);
+      card.appendChild(link);
+
+      document.querySelector('div.card').appendChild(card);
+    }
+
+  });
+
+  const business = jsonObject['business'];
