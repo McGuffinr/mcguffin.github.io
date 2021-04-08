@@ -16,12 +16,27 @@
     <body>
         <header>
             <picture>
-                <img src="images/rexburglogotrans.jpg" alt="Logo">               
+                <img src="images/rexburglogotrans.jpg" alt="Logo"> 
+                <div class="summarybox">
+                  <p>Currently: 
+                      <span id="currently"></span>
+                    </p>
+                    <p>Temp: 
+                      <span id="temp"></span>
+                    &#176;F</p>
+                    <p>Humidity: 
+                      <span id="humidity"></span>
+                    %</p>
+                </div>              
             </picture>
 
             <section>
                 <h1>Rexburg Chamber of Commerce</h1>
+                
             </section>
+
+            
+
         </header>
 
         <nav>
@@ -37,9 +52,25 @@
         </nav>
 
         <main>
-            <img src="images/rexburgheroimage.jpg" alt="heroimage">
 
-            <h2>5 Day Forcast</h2>
+          <h2>Rexburg is Where Adventures Begin!</h2>
+          <section class="welcomegrid">
+            <p>Rexburg is a great place to work, live and raise a family. Rexburg keeps its welcoming small town feel 
+             while it continues to grow. 
+             Rexburg is the gateway to both Grand Teton and Yellowstone National Parks, Teton, Big Hole Mountain Ranges,
+             and surrounded by world class hunting and fishing grounds. With Sun Valley to the west and Jackson Hole, 
+             Wyoming to the east, Rexburg is the natural starting point for an Eastern Idaho Adventure.
+             If you are looking for a place that focuses on comunity and helping one another then Rexburg is where you want to be, and if you
+             are looking to support or build local businesses then consider joining the Rexburg chamber of commerce.</p>
+
+            <picture class="hero">
+              <img src="images/rexburgheroimage.jpg" alt="heroimage">
+            </picture>
+          </section>
+
+          <section class="eventsection">
+
+           
 
             <div class="forecastdiv">
                 <div class="forecasts">
@@ -59,15 +90,17 @@
                     </div>
              </div>
 
+             <div class='events'>
+             <h2>Upcoming Events</h2>
+             <h4>Deseret Industries Donation Drop-off</h4>
+             <p>Tue, Apr 13, 10:00 AM</p>
+             <h4>Career Event- BYUI</h4>
+             <p>Sun, Apr 11, 7:00 AM</p>
+             <h4>Upper Valley Toastmasters</h4>
+             <p>Wed, Apr 14, 7:00 AM</p>
+             </div>
 
-            <h2>Rexburg, Ain't That Bad</h2>
-            <p>Rexburg is a great place to work, live and raise a family. Rexburg keeps its welcoming small town feel 
-               while it continues to grow. 
-               Rexburg is the gateway to both Grand Teton and Yellowstone National Parks, Teton, Big Hole Mountain Ranges,
-               and surrounded by world class hunting and fishing grounds. With Sun Valley to the west and Jackson Hole, 
-               Wyoming to the east, Rexburg is the natural starting point for an Eastern Idaho Adventure.
-               If you are looking for a place that focuses on comunity and helping one another then Rexburg is where you want to be, and if you
-               are looking to support or build local businesses then consider joining the Rexburg chamber of commerce.</p>
+             </section>
             
             
 
@@ -76,17 +109,18 @@
         
         
         <footer>
-            <h2>Upcoming Events</h2>
-            <h4>Deseret Industries Donation Drop-off</h4>
-            <p>Tue, Apr 13, 10:00 AM</p>
-            <h4>Career Event- BYUI</h4>
-            <p>Sun, Apr 11, 7:00 AM</p>
-            <h4>Upper Valley Toastmasters</h4>
-            <p>Wed, Apr 14, 7:00 AM</p>
+          <div class="contactinfo">
+            <h3>Phone number</h3>
+            <p>(208)123-4567</p>
+            <h3>Email</h3>
+            <p>rexburgcares@gmail.com</p>
+            </div>
 
+            <div class="social">
             <a href="https://facebook.com"><img src="images/facebooklink.png" alt="facebook"></a>
             <a href="https://youtube.com"><img src="images/youtubelink.png" alt="youtube"></a>
             <a href="https://twitter.com"><img src="images/twitterlink.png"alt="twitter"></a>
+            </div>
         </footer> 
         <script src="js/weather-rexburg.js"></script>
         <script src="js/business.js"></script>

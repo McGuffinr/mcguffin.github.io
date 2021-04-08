@@ -12,7 +12,7 @@ fetch(requestURL)
         let h2 = document.createElement('h2');
         let image = document.createElement('img');
         let  contact_info = document.createElement('div');
-        let  link = document.createElement('a');
+        let  a = document.createElement('a');
 
       h2.textContent = business[i].name;
 
@@ -22,12 +22,16 @@ fetch(requestURL)
 
       contact_info.textContent = business[i].contact;
 
-      link.textContent = business[i].weblink; 
+      
+      a.title = "website";
+      a.href =  business[i].weblink;
+      
 
       card.appendChild(h2);
       card.appendChild(image);
       card.appendChild(contact_info);
-      card.appendChild(link);
+      card.appendChild(a);
+      
 
       document.querySelector('div.card').appendChild(card);
     }

@@ -10,6 +10,20 @@ header {
     align-items: center;
 }
 
+    .summarybox{
+      float:right;
+      position:static;
+      margin: 2em;
+      background-color: #3684b5c7;
+      padding: 1em 3em 1em 1em;
+      text-align: left;
+    }
+    
+    .summarybox ul{
+      list-style: none;
+      list-style-position: outside;
+    }
+
 /*      Navigation      */
 
 ul{
@@ -64,6 +78,26 @@ ul{
 
   /*        Main            */
 
+
+  
+  .welcomegrid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .welcomegrid img {
+    display: block;
+    float: left;
+    margin-bottom: 40px;
+    
+  }
+  .welcomegrid p {
+    display: block;
+  }
+
+  
+  
+
   body{
     margin: 0;
     padding: 0;
@@ -77,25 +111,27 @@ ul{
 
   main h2 {
       margin-top: 0;
+      text-align: center;
   }
 
   main p {
       margin-bottom: 0;
   }
 
+ 
+
   /*      Forecast Rules         */
 
   .forecasts {
-    padding: 3px;
     margin: 2px;
     border: 2px solid #05386b;
   }
 
   .forecastdiv {
     display: grid;
-    
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    height: 50%;
   }
 
   /*       Join us Form rules    */
@@ -145,24 +181,44 @@ ul{
     max-width: 20rem;
   }
 
+  /* contact form  */
+
+  form label.help {
+    display: block;
+    padding-top: 1rem;
+  }
+
+  form label.help input, label.help textarea {
+    display: block;
+  }
+
   /*       Footer           */
 
   footer {
     background: #43C6AC;  
     background: -webkit-linear-gradient( #191654, #43C6AC);  
     background: linear-gradient( #191654, #43C6AC);
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
   }
 
-  footer p {
-      margin-top: 0;
+  footer.div.contactinfo {
+    display: grid;
+    text-align: left;
+    
   }
 
+  footer.div.social a{
+   position: absolute;
+   right: 0;
 
+  }
 
+  
 
+  
 
-
-
+/*    business grid display */
 
   .card {
     text-align: center;
@@ -185,4 +241,21 @@ ul{
     padding: 5px;
     filter: blur(0em);
     transition: filter 1s;
+  }
+
+  .thanks {
+    text-align: center;
+  }
+
+  /*     Table rules       */
+
+  tr:nth-child(odd) {
+    background-color: #7EF1B8;
+  }
+
+  table {
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
   }
